@@ -8,21 +8,21 @@ using System.Threading.Tasks;
 
 namespace exoStarCraft
 {
-    public class ProtosBaseFactory : BaseFactory
+    public class ZergBaseFactory : BaseFactory
     {
         public override MainBuilding creerMainBuilding()
         {
-            return new ProtosMainBuilding();
+            return new Hatchery();
         }
 
         public override InfantryBuilding creerInfantryBuilding()
         {
-            return new ProtosInfantryBuilding();
+            return new SpawningPool();
         }
 
         public override GasBuilding creerGasBuilding()
         {
-            return new ProtosGasBuilding();
+            return new Extractor();
         }
     }
 }

@@ -10,9 +10,9 @@ namespace exoStarCraft
     {
         public ProtossBase()
         {
-            this.infantryBuilding = new ProtosInfantryBuilding();
-            this.mainBuilding = new ProtosMainBuilding();
-            this.gasBuilding = new ProtosGasBuilding();
+            this.infantryBuilding = new Gateway();
+            this.mainBuilding = new Nexus();
+            this.gasBuilding = new Assimilator();
         }
     }
 }

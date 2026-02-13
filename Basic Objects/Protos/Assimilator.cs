@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace exoStarCraft
 {
-    public class ZergMainBuilding : MainBuilding
+    public class Assimilator : GasBuilding
     {
-        public ZergMainBuilding()
+        public Assimilator() 
         {
-            Console.WriteLine("Construction d'un Hatchery (Zerg)");
+            Console.WriteLine("Construction d'un Assimilator (Protos)");
         }
     }
 }

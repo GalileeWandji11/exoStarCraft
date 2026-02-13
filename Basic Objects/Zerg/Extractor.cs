@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace exoStarCraft
 {
-    public class ZergGasBuilding : GasBuilding
+    public class Extractor : GasBuilding
     {
-        public ZergGasBuilding()
+        public Extractor()
         {
             Console.WriteLine("Construction d'un Extractor (Zerg)");
         }

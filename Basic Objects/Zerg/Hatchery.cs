@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace exoStarCraft
 {
-    public class ProtosGasBuilding : GasBuilding
+    public class Hatchery : MainBuilding
     {
-        public ProtosGasBuilding() 
+        public Hatchery()
         {
-            Console.WriteLine("Construction d'un Assimilator (Protos)");
+            Console.WriteLine("Construction d'un Hatchery (Zerg)");
         }
     }
 }

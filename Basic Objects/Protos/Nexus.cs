@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace exoStarCraft
 {
-    public class ProtosMainBuilding : MainBuilding
+    public class Nexus : MainBuilding
     {
-        public ProtosMainBuilding()
+        public Nexus()
         {
             Console.WriteLine("Construction d'un Nexus (Protos)");
         }

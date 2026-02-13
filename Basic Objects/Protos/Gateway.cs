@@ -8,26 +8,26 @@ using System.Threading.Tasks;
 
 namespace exoStarCraft
 {
-    public class ZergInfantryBuilding : InfantryBuilding
+    public class Gateway : InfantryBuilding
     {
-        public ZergInfantryBuilding()
+        public Gateway()
         {
-            Console.WriteLine("Construction d'un Spawning Pool (Zerg)");
+            Console.WriteLine("Construction d'un Gateway (Protos)");
         }
 
         public override Unit creerLargeUnit()
         {
-            return new Guardian();
+            return new Carrier();
         }
 
         public override Unit creerMediumUnit()
         {
-            return new Hydralisk();
+            return new Dragoon();
         }
 
         public override Unit creerSmallUnit()
         {
-            return new Zergling();
+            return new Zealot();
         }
     }
 }

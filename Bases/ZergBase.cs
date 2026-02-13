@@ -10,9 +10,9 @@ namespace exoStarCraft
     {
         public ZergBase()
         {
-            this.infantryBuilding = new ZergInfantryBuilding();
-            this.mainBuilding = new ZergMainBuilding();
-            this.gasBuilding = new ZergGasBuilding();
+            this.infantryBuilding = new SpawningPool();
+            this.mainBuilding = new Hatchery();
+            this.gasBuilding = new Extractor();
         }
     }
 }

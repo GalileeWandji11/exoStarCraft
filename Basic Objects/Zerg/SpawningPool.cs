@@ -8,26 +8,26 @@ using System.Threading.Tasks;
 
 namespace exoStarCraft
 {
-    public class ProtosInfantryBuilding : InfantryBuilding
+    public class SpawningPool : InfantryBuilding
     {
-        public ProtosInfantryBuilding()
+        public SpawningPool()
         {
-            Console.WriteLine("Construction d'un Gateway (Protos)");
+            Console.WriteLine("Construction d'un Spawning Pool (Zerg)");
         }
 
         public override Unit creerLargeUnit()
         {
-            return new Carrier();
+            return new Guardian();
         }
 
         public override Unit creerMediumUnit()
         {
-            return new Dragoon();
+            return new Hydralisk();
         }
 
         public override Unit creerSmallUnit()
         {
-            return new Zealot();
+            return new Zergling();
         }
     }
 }
